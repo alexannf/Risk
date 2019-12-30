@@ -6,7 +6,7 @@ public class Terning implements Comparator<Terning> {
 
     private int score;
     private final int idnr;
-    private static int id;
+    private static int id = 1;
 
 
     public Terning(){
@@ -58,7 +58,7 @@ public class Terning implements Comparator<Terning> {
 
     @Override
     public String toString(){
-        return "Terning: " + this.idnr;
+        return "T" + this.idnr + ": "+this.score;
     }
 
     public static void main(String[] args) {
