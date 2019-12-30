@@ -241,7 +241,53 @@ public class Risk {
 
     public static void main(String[] args) {
         Risk risk = new Risk();
+        System.out.println("Simulerer A1, F1:");
         risk.simulerKamp(1000000, 1, 1);
+
+        System.out.println("\nSimulerer A1, F2:");
+        risk.simulerKamp(1000000, 1, 2);
+
+        System.out.println("\nSimulerer A1, F3:");
+        risk.simulerKamp(1000000, 1, 3);
+
+        System.out.println("\nSimulerer A1, F4:");
+        risk.simulerKamp(1000000, 1, 4);
+
+        System.out.println("\nSimulerer A2, F1:");
+        risk.simulerKamp(1000000, 2, 1);
+
+        System.out.println("\nSimulerer A2, F2:");
+        risk.simulerKamp(1000000, 2, 2);
+
+        System.out.println("\nSimulerer A2, F3:");
+        risk.simulerKamp(1000000, 2, 3);
+
+        System.out.println("\nSimulerer A2, F4:");
+        risk.simulerKamp(1000000, 2, 4);
+
+        System.out.println("\nSimulerer A3, F1:");
+        risk.simulerKamp(1000000, 3, 1);
+
+        System.out.println("\nSimulerer A3, F2:");
+        risk.simulerKamp(1000000, 3, 2);
+
+        System.out.println("\nSimulerer A3, F3:");
+        risk.simulerKamp(1000000, 3, 3);
+
+        System.out.println("\nSimulerer A3, F4:");
+        risk.simulerKamp(1000000, 3, 4);
+
+        System.out.println("\nSimulerer A4, F1:");
+        risk.simulerKamp(1000000, 4, 1);
+
+        System.out.println("\nSimulerer A4, F2:");
+        risk.simulerKamp(1000000, 4, 2);
+
+        System.out.println("\nSimulerer A4, F3:");
+        risk.simulerKamp(1000000, 4, 3);
+
+        System.out.println("\nSimulerer A4, F4:");
+        risk.simulerKamp(1000000, 4, 4);
     }
 
 
